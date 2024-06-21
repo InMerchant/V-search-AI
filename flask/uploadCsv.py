@@ -14,7 +14,7 @@ def upload_to_DB(folder_name, video_no):
 
     infoCSV_upload(folder_name, video_no)
     SMY_OBJ_DATA_upload(folder_name, video_no)
-
+    return True
 
 
 
