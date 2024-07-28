@@ -8,16 +8,19 @@
 > 파이참보다 우선 설치 권장
 + 파이참 설치
 + Anaconda Prompt 실행
->  1. conda create -n search python=3.10.14
->  2. conda activate search
->  3. cd [프로젝트 경로(app.py가 있는 곳으로)]
->  4. pip install -r requirements.txt
+> conda create -n search python=3.10.14
+> 
+> conda activate search
+> 
+> cd [프로젝트 경로(app.py가 있는 곳으로)]
+> 
+> pip install -r requirements.txt
 
 + ffmpeg 설치
-> 1. <https://ffmpeg.org/> 사이트로 이동
->> 1-1. [Windows builds from gyan.dev] 이동
+> <https://ffmpeg.org/> 사이트로 이동
+>> [Windows builds from gyan.dev] 이동
 >>
->> 1-2. [ffmpeg-git-full.7z] 클릭하여 다운로드 진행
+>> [ffmpeg-git-full.7z] 클릭하여 다운로드 진행
 > 2. 7zip 프로그램을 이용해 압축 해제 후 C:\ffmpeg 경로로 ffmpeg폴더 생성 후 압축 해제한 파일 이동
 > 3. 시스템 환경 변수 편집
 >> 시스템 변수 - Path - 새로만들기 - C:\ffmpeg\bin 등록 -> cmd 창에서 [ffmpeg -version] 으로 확인
