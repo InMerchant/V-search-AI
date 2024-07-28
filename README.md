@@ -8,10 +8,10 @@
 > 파이참보다 우선 설치 권장
 + 파이참 설치
 + Anaconda Prompt 실행
-1. conda create -n search python=3.10.14
-2. conda activate search
-3. cd [프로젝트 경로(app.py가 있는 곳으로)]
-4. pip install -r requirements.txt
+ 1. conda create -n search python=3.10.14
+ 2. conda activate search
+ 3. cd [프로젝트 경로(app.py가 있는 곳으로)]
+ 4. pip install -r requirements.txt
 
 + ffmpeg 설치
 > <https://ffmpeg.org/> 사이트로 이동
