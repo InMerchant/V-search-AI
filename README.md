@@ -61,3 +61,11 @@
 >>> 
 >>> [필수] C:\oracle\instantclient-basic-windows.x64-19.23.0.0.0dbru\instantclient_19_23 경로가 존재해야됨
 + 이후 재시작
++ 클론한 프로젝트 안에서 network 폴더를 C:\oracle\instantclient-basic-windows.x64-19.23.0.0.0dbru\instantclient_19_23 경로로 붙여넣기
+> network 폴더가 [C:\oracle\instantclient-basic-windows.x64-19.23.0.0.0dbru\instantclient_19_23\network] 이 경로와 동일해야됨
+***********
+#### CPU를 이용해 서버를 이용할 경우
++ 위 과정을 전부 수행한 후 requirements2.txt 파일을 이용해 pip list를 설치
+***********
+#### GPU를 사용할 경우
++ 
