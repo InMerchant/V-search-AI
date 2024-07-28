@@ -74,6 +74,15 @@
 ***********
 #### CPU를 이용해 서버를 이용할 경우
 + 위 과정을 전부 수행한 후 requirements2.txt 파일을 이용해 pip list를 설치
+> 만약 requirements.txt 파일을 이용해 pip list를 설치하였다면
+>
+> 아나콘다를 이용해 가상서버 search로 이동
+>
+> pip uninstall torch torchvision torchaudio
+>> torch, torchvision, torchaudio 삭제 후 재설치
+> pip3 install torch torchvision torchaudio
+>> <https://pytorch.org/get-started/locally/> 사이트를 이용
++ 반대의 경우도 pytorch 사이트를 이용해 파이토치 재설치 바람
 ***********
 #### GPU를 사용할 경우
 + cuda 설치
