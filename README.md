@@ -9,8 +9,11 @@
 + 파이참 설치
 + Anaconda Prompt 실행
 > conda create -n search python=3.10.14
+
 > conda activate search
+
 > cd [프로젝트 경로(app.py가 있는 곳으로)]
+
 > pip install -r requirements.txt
 
 + ffmpeg 설치
