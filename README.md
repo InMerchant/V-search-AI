@@ -27,6 +27,7 @@
 >> JDK 17 - Windwos - [x64 Installer] 다운로드
 > 2. 시스템 환경 변수 편집
 >> 2-1. 시스템 변수 - 새로만들기 - (변수 이름=JAVA_HOME, 변수 값=C:\Program Files\Java\jdk-17 (설치경로로 변경))
+>> 
 >> 2-2. 시스템 변수 - Path - 새로만들기 - %JAVA_HOME%\bin -> 이후 맨 위로 이동
 
 + 오라클 클라이언트 19c버전 설치
@@ -36,10 +37,13 @@
 >> (예시 : C:\oracle\WINDOWS.X64_193000_db_home)
 > 3. WINDOWS.X64_193000_client_home 폴더 안에 있는 setup.exe파일을 통해 설치 진행
 >> 3-1. Windows 내장 계정 사용(L)
+>> 
 >> 3-2. C:\oracle 폴더를 Oracle Base로 만들어서 진행 후 계속 설치
 > 4. <https://www.oracle.com/kr/database/technologies/instant-client/winx64-64-downloads.html> 사이트로 이동
 >> 4-1. Version 19.23.~~~ 클릭 후 Basic Package 다운로드
+>> 
 >> 4-2. 폴더 이름\ 안에 풀기로 푼 후 C:\oracle 경로 안에 폴더 옮기기
 >>> 4-2-1. (예시 : C:\oracle\instantclient-basic-windows.x64-19.23.0.0.0dbru)
+>>> 
 >>> 4-2-2. [필수] C:\oracle\instantclient-basic-windows.x64-19.23.0.0.0dbru\instantclient_19_23 경로가 존재해야됨
 + 이후 재시작
