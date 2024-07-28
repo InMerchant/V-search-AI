@@ -8,6 +8,7 @@
 – RAM: 16GB
 - OS: Ubuntu 24.04, Window 11
 - cudnn version : 8.9.7
+- pytorch version : 2.3.1
   
 # 실행방법
 + 클론 이후 프로젝트 위치로 이동 후 분할압축된 [epoch_4_evalAcc_64.zip] 압축해제
