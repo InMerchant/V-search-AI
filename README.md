@@ -1,6 +1,14 @@
 # V-search-AI
  이것만보고 프로젝트 AI서버
 ---
+# 테스트환경
+- CPU: 인텔 코어i7-12세대 12700K, AMD Ryzen 5 7500F 6-Core Processor
+– 그래픽카드: GeForce RTX 3060, RTX 4060 Ti
+- CUDA Ver. : 12.1.1
+– RAM: 16GB
+- OS: Ubuntu 24.04, Window 11
+- cudnn version : 8.9.7
+  
 # 실행방법
 + 클론 이후 프로젝트 위치로 이동 후 분할압축된 [epoch_4_evalAcc_64.zip] 압축해제
 > 폴더 안이 아닌 여기에 풀기로 파일 바로 생성하기
@@ -68,4 +76,22 @@
 + 위 과정을 전부 수행한 후 requirements2.txt 파일을 이용해 pip list를 설치
 ***********
 #### GPU를 사용할 경우
-+ 
++ cuda 설치
+> <https://developer.nvidia.com/cuda-toolkit-archive> 쿠다 버전 12.1.1로 설치
+>> <https://www.wikiwand.com/en/CUDA#GPUs_supported> 사이트에서 자신의 GPU와 호환되는지 확인
+> 다운 후 cmd창을 이용해 [nvcc --version]명령어 입력후 쿠다 버전 확인
+
++ cudnn 설치
+> <https://developer.nvidia.com/rdp/cudnn-archive> 들어간 후 쿠다 버전에 맞게 다운
+> 
+> 압축해제 후 bin, include, lib 디렉토리를 CUDA가 설치된 경로에 압축해제
+>> (예시 : C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.2) 에 복사 붙여넣기 해준다.
+>> 
+>> (환경 변수 CUDA_PATH 경로를 보면 된다)
+***********
+#### 서버 가동 방법
++ 아나콘다 프롬프트 실행
++ conda activate search 입력
++ cd [프로젝트 경로] 입력
++ flask run 입력
++ 이후 스프링부트 서버를 실행하여 작동 확인
