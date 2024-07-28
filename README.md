@@ -19,9 +19,13 @@
 + ffmpeg 설치
 > <https://ffmpeg.org/> 사이트로 이동
 >> [Windows builds from gyan.dev] 이동
+
 >> [ffmpeg-git-full.7z] 클릭하여 다운로드 진행
+
 > 7zip 프로그램을 이용해 압축 해제 후 C:\ffmpeg 경로로 ffmpeg폴더 생성 후 압축 해제한 파일 이동
+
 > 시스템 환경 변수 편집
+
 >> 시스템 변수 - Path - 새로만들기 - C:\ffmpeg\bin 등록 -> cmd 창에서 [ffmpeg -version] 으로 확인
 
 + jdk 17 설치
