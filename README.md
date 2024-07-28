@@ -16,6 +16,7 @@
 + ffmpeg 설치
 > 1. <https://ffmpeg.org/> 사이트로 이동
 >> 1-1. [Windows builds from gyan.dev] 이동
+>>
 >> 1-2. [ffmpeg-git-full.7z] 클릭하여 다운로드 진행
 > 2. 7zip 프로그램을 이용해 압축 해제 후 C:\ffmpeg 경로로 ffmpeg폴더 생성 후 압축 해제한 파일 이동
 > 3. 시스템 환경 변수 편집
